@@ -7,4 +7,5 @@ module.exports = (options, callback) => {
 	});
 };
 
+module.exports.plugins = Scraper.plugins;
 module.exports.defaults = Scraper.defaults;
